@@ -2,9 +2,6 @@
 
 TodoList is a simple Python application that allows users to manage their tasks. Users can add tasks to a to-do list and mark them as completed.
 
-## Getting Started
-
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## How to Run the Project
 1. Ensure you have Python 3.6 or later installed.
