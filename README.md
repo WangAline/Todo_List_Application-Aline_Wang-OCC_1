@@ -19,22 +19,14 @@ These instructions will get you a copy of the project up and running on your loc
 4. Push your changes to your fork: `git push origin your-branch-name`
 5. Create a pull request from your fork to the original repository.
 
-We welcome contributions of all kinds. Thank you for considering contributing to TodoList!
-
-## Contributing
-
-Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us.
-
 ## Authors
 
 * **Aline WANG** - *Initial work* - [WangAline](https://github.com/WangAline)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-* 
+Welcome contributions of all kinds. Thank you for considering contributing to TodoList!
 
