@@ -23,8 +23,11 @@ class TodoList:
                     print("{:<10s}{:<30s}{:<30s}".format("", "", task_completed))
 
     def add_task(self, task):
-        self.tasks_todo.append(task)
-        print(f"Tâche ajoutée: {task}")
+        if task.strip():  # Check if task is not empty
+            self.tasks_todo.append(task)
+            print(f"Tâche ajoutée: {task}")
+        else:
+            print("La tâche ne peut pas être vide.")
 
     def delete_task(self, task_index):
         try:
