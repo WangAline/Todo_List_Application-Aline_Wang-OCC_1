@@ -2,7 +2,10 @@
 
 TodoList is a simple Python application that allows users to manage their tasks. Users can add tasks to a to-do list and mark them as completed.
 The options will be displayed as follows:
+
 ![image](https://github.com/WangAline/Todo_List_Application-Aline_Wang-OCC_1/assets/146206671/b4d41fe5-229d-411d-aa6e-2ae5c19b480f)
+
+
 Simply type in the number to navigate through the options.
 
 
