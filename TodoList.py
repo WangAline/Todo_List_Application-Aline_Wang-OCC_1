@@ -1,3 +1,5 @@
+import datetime
+
 class TodoList:
     def __init__(self):
         self.tasks_todo = []
@@ -24,8 +26,10 @@ class TodoList:
 
     def add_task(self, task):
         if task.strip():  # Check if task is not empty
-            self.tasks_todo.append(task)
-            print(f"Tâche ajoutée: {task}")
+            current_date = datetime.datetime.now().date()
+            task_with_date = f"{task} (date: {current_date})"
+            self.tasks_todo.append(task_with_date)
+            print(f"Tâche ajoutée: {task_with_date}")
         else:
             print("La tâche ne peut pas être vide.")
 
