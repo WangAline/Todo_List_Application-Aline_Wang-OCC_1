@@ -4,19 +4,23 @@ class TodoList:
         self.tasks_completed = []
 
     def show_tasks(self):
-        print("\nTâches à faire:")
-        if not self.tasks_todo:
-            print("Aucune tâche à faire.")
+        print("\nTâches:")
+        if not self.tasks_todo and not self.tasks_completed:
+            print("Aucune tâche.")
         else:
-            for i, task in enumerate(self.tasks_todo, start=1):
-                print(f"{i}. {task}")
+            print("{:<10s}{:<30s}{:<30s}".format("Index", "Tâches à faire", "Tâches complétées"))
+            print("-" * 70)
+            for i, (task_todo, task_completed) in enumerate(zip(self.tasks_todo, self.tasks_completed), start=1):
+                print("{:<10d}{:<30s}{:<30s}".format(i, task_todo, task_completed))
 
-        print("\nTâches complétées:")
-        if not self.tasks_completed:
-            print("Aucune tâche complétée.")
-        else:
-            for i, task in enumerate(self.tasks_completed, start=1):
-                print(f"{i}. {task}")
+            if len(self.tasks_todo) > len(self.tasks_completed):
+                remaining_tasks = self.tasks_todo[len(self.tasks_completed):]
+                for i, task_todo in enumerate(remaining_tasks, start=len(self.tasks_completed)+1):
+                    print("{:<10d}{:<30s}".format(i, task_todo))
+            elif len(self.tasks_completed) > len(self.tasks_todo):
+                remaining_tasks = self.tasks_completed[len(self.tasks_todo):]
+                for i, task_completed in enumerate(remaining_tasks, start=len(self.tasks_todo)+1):
+                    print("{:<10s}{:<30s}{:<30s}".format("", "", task_completed))
 
     def add_task(self, task):
         self.tasks_todo.append(task)
