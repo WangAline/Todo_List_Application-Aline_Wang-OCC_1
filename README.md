@@ -1,8 +1,10 @@
-# Todo_List_Application-Aline_Wang-OCC_1
-A console based application to help keep track of tasks. You should be able to add, delete, complete tasks.
+# Todo List Application
 
-## Project Description
 TodoList is a simple Python application that allows users to manage their tasks. Users can add tasks to a to-do list and mark them as completed.
+
+## Getting Started
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
 ## How to Run the Project
 1. Ensure you have Python 3.6 or later installed.
@@ -18,3 +20,21 @@ TodoList is a simple Python application that allows users to manage their tasks.
 5. Create a pull request from your fork to the original repository.
 
 We welcome contributions of all kinds. Thank you for considering contributing to TodoList!
+
+## Contributing
+
+Please read [CONTRIBUTING.md]() for details on our code of conduct, and the process for submitting pull requests to us.
+
+## Authors
+
+* **Aline WANG** - *Initial work* - [WangAline](https://github.com/WangAline)
+
+See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+* 
+
