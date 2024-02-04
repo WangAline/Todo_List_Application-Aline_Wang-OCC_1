@@ -8,6 +8,16 @@ The options will be displayed as follows:
 
 Simply type in the number to navigate through the options.
 
+## Installation
+To check that Python is correctly installed and find out which version is installed, you can use the following command in the command prompt (cmd) or PowerShell :
+sh
+python --version
+
+To install Python on Windows the easy way :
+
+1. Download: Go to [python.org](https://www.python.org/), in the "Downloads" section, choose the Windows version and download the installer.
+
+2. Install: Open the downloaded installer, check "Add Python to PATH" at the bottom of the window, then click "Install Now".
 
 ## How to Run the Project
 1. Ensure you have Python 3.6 or later installed.
